@@ -20,4 +20,4 @@ let dataSetVersion = '';
 /**
  * Image root, will be appended to the start of every image URL.
  */
-const imageRoot = 'https://www.fotw.info/images/';
+const imageRoot = 'https://www.serebii.net/pokemonhome/pokemon/';
