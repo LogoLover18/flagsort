@@ -3,62 +3,57 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
-    key: "series",
-    tooltip: "Check this to restrict to certain series.",
+    name: "Filter by Generation",
+    key: "gen",
+    tooltip: "Check this to restrict to certain generations.",
     checked: false,
     sub: [
-      { name: "Books and CDs", key: "book" },
-      { name: "The Highly Responsive to Prayers", tooltip: "01 - Reiiden", key: "HRtP" },
-      { name: "The Story of Eastern Wonderland", tooltip: "02 - Fuumaroku", key: "SoEW" },
-      { name: "Phantasmagoria of Dim.Dream", tooltip: "03 - Yumejikuu", key: "PoDD" },
-      { name: "Lotus Land Story", tooltip: "04 - Gensoukyou", key: "LLS" },
-      { name: "Mystic Square", tooltip: "05 - Kaikidan", key: "MS" },
-      { name: "Embodiment of Scarlet Devil", tooltip: "06 - Koumakan", key: "EoSD" },
-      { name: "Perfect Cherry Blossom", tooltip: "07 - Youyoumu", key: "PCB" },
-      { name: "Immaterial and Missing Power", tooltip: "07.5 - Suimusou", key: "IaMP" },
-      { name: "Imperishable Night", tooltip: "08 - Eiyashou", key: "IN" },
-      { name: "Phantasmagoria of Flower View", tooltip: "09 - Kaeidzuka", key: "PoFV" },
-      { name: "Shoot the Bullet", tooltip: "09.5 - Bunkachou", key: "StB" },
-      { name: "Mountain of Faith", tooltip: "10 - Fuujinroku", key: "MoF" },
-      { name: "Scarlet Weather Rhapsody", tooltip: "10.5 - Hisouten", key: "SWR" },
-      { name: "Subterranean Animism", tooltip: "11 - Chireiden", key: "SA" },
-      { name: "Undefined Fantastic Object", tooltip: "12 - Seirensen", key: "UFO" },
-      { name: "Touhou Hisoutensoku", tooltip: "12.3 - Hisoutensoku", key: "Soku" },
-      { name: "Double Spoiler", tooltip: "12.5 - Bunkachou", key: "DS" },
-      { name: "Great Fairy Wars", tooltip: "12.8 - Daisensou", key: "GFW" },
-      { name: "Ten Desires", tooltip: "13 - Shinreibyou", key: "TD" },
-      { name: "Hopeless Masquerade", tooltip: "13.5 - Shinkirou", key: "HM" },
-      { name: "Double Dealing Character", tooltip: "14 - Kishinjou", key: "DDC" },
-      { name: "Impossible Spell Card", tooltip: "14.3 - Amanojaku", key: "ISC" },
-      { name: "Urban Legend in Limbo", tooltip: "14.5 - Shinpiroku", key: "ULiL" },
-      { name: "Legacy of Lunatic Kingdom", tooltip: "15 - Kanjuden", key: "LoLK" }
+      { name: "Generation I", key: "gen1" },
+      { name: "Generation II", key: "gen2" },
+      { name: "Generation III", key: "gen3" },
+      { name: "Generation IV", key: "gen4" },
+      { name: "Generation V", key: "gen5" },
+      { name: "Generation VI", key: "gen6" },
+      { name: "Generation VII", key: "gen7" },
+      { name: "Generation VIII", key: "gen8" }
     ]
   },
   {
-    name: "Filter by Stage Enemy Appearances",
-    key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    name: "Filter by Regional Dex",
+    key: "dex",
+    tooltip: "Check this to restrict to Pokemon that are part of regional dexes.",
     checked: false,
     sub: [
-      { name: "Stage 1", key: "st1" },
-      { name: "Stage 2", key: "st2" },
-      { name: "Stage 3", key: "st3" },
-      { name: "Stage 4", key: "st4" },
-      { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" },
-      { name: "Stage 6/Final", key: "st6" },
-      { name: "Stage EX/Phantasm", key: "ex" }
+      { name: "Kanto Pokedex", key: "kanto" },
+      { name: "New Pokedex (Gold/Silver)", key: "johtogsc" },
+      { name: "Hoenn Pokedex", key: "hoennrse" },
+      { name: "Sinnoh Pokedex", key: "sinnohdp" },
+      { name: "Sinnoh Pokedex (Platinum)", key: "sinnohpt" },
+      { name: "Johto Pokedex (HeartGold/SoulSilver)", key: "johtohgss" }
+      { name: "Unova Pokedex", key: "unovabw" },
+      { name: "Unova Pokedex (Black 2/White 2)", key: "unovabw2" },
+      { name: "Central Kalos Pokedex", key: "kalosce" },
+      { name: "Coastal Kalos Pokedex", key: "kalosco" },
+      { name: "Mountain Kalos Pokedex", key: "kalosmo" },
+      { name: "Hoenn Pokedex (Omega Ruby/Alpha Sapphire)", key: "hoennoras" },
+      { name: "Alola Pokedex", key: "alolasm" },
+      { name: "Alola Pokedex (Ultra Sun/Ultra Moon)", key: "alolausum" },
+      { name: "Kanto Pokedex (Let's Go)", key: "kantolg" },
+      { name: "Galar Pokedex", key: "galar" },
+      { name: "Isle of Armor Pokedex", key: "ioa" },
+      { name: "Crown Tundra Pokedex", key: "ct" },
+      { name: "Hisui Pokedex", key: "hisui" }
     ]
   },
   {
-    name: "Remove PC-98 Duplicates",
-    key: "pc98",
-    tooltip: "Check this to remove PC-98 characters with a Windows counterpart."
+    name: "Remove Forms",
+    key: "form",
+    tooltip: "Check this to remove alternate forms of Pokemon."
   },
   {
-    name: "Remove Non-Girls",
-    key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
+    name: "Remove Legendaries and Mythicals",
+    key: "legend",
+    tooltip: "Check this to remove all Legendary and Mythical Pokemon."
   }
 ];
 
